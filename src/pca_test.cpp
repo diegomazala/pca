@@ -39,7 +39,7 @@ int main(int argc, char* argv[])
 		<< "Eigen Vectors:		\n" << pca.get_eigen_vectors() << std::endl << std::endl;
 
 	
-	const auto& reprojection = pca.reprojection_all();
+	const auto& reprojection = pca.reprojection();
 	auto error = (pca_data_matrix - reprojection).norm();
 
 	std::cout

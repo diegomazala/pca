@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pca_test", "pca_test.vcxproj", "{6B7718EB-1FF1-42CB-8DAC-5622D38A0E5E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pca_mesh", "pca_mesh.vcxproj", "{D2CC0DF8-1547-444C-AA08-BA9FEEEE831C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +17,10 @@ Global
 		{6B7718EB-1FF1-42CB-8DAC-5622D38A0E5E}.Debug|x64.Build.0 = Debug|x64
 		{6B7718EB-1FF1-42CB-8DAC-5622D38A0E5E}.Release|x64.ActiveCfg = Release|x64
 		{6B7718EB-1FF1-42CB-8DAC-5622D38A0E5E}.Release|x64.Build.0 = Release|x64
+		{D2CC0DF8-1547-444C-AA08-BA9FEEEE831C}.Debug|x64.ActiveCfg = Debug|x64
+		{D2CC0DF8-1547-444C-AA08-BA9FEEEE831C}.Debug|x64.Build.0 = Debug|x64
+		{D2CC0DF8-1547-444C-AA08-BA9FEEEE831C}.Release|x64.ActiveCfg = Release|x64
+		{D2CC0DF8-1547-444C-AA08-BA9FEEEE831C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

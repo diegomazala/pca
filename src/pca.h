@@ -42,11 +42,11 @@ public:
 
 		// Projection is W * X' 
 		const Eigen::Matrix<Type, Eigen::Dynamic, Eigen::Dynamic>& W = eigen_vectors.adjoint();
-		projection_matrix = W.topRows(2) * centered_matrix.adjoint();
+		projection_matrix = W.topRows(input_matrix.cols()) * centered_matrix.adjoint();
 	}
 
 
-	Eigen::Matrix<Type, Eigen::Dynamic, Eigen::Dynamic> reprojection_all()
+	Eigen::Matrix<Type, Eigen::Dynamic, Eigen::Dynamic> reprojection()
 	{
 		return projection_matrix.transpose() * eigen_vectors + get_mean();
 		//return (eigen_vectors * projection_matrix + get_mean().transpose()).transpose();
